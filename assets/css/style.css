@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    /* color: white; */
+}
+
+header{
+    background-color: rgb(37, 27, 27);
+    color: white;
+}
+
+nav{
+    display: flex;
+    padding: 30px  150px;
+    
+}
+
+.first-ul{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.first-ul a{
+    color: white;
+    margin-left: 30px;
+}
+
+.second-ul a{
+    margin-left: 10px;
+}
+
+a img{
+    width: 15px;
+    height: 15px;
+}
+
+.my-slider{
+    width: auto;
+    height: 615px;
+    background-image: url('./../images/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    border: 2px solid red;
+    margin-bottom: 0px;
+
+}
+
+
+.my-slider > .slider {
+  overflow: hidden;
+  margin-top: -30px;
+}
+
+.slider > .slides {
+  width: calc(1300px * 3);
+  animation: defiler 16s infinite;
+}
+
+.slides .slide {
+  float: left;
+  margin-top: 200px;
+  width: 1400px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.our-sliders {
+  margin-top: -20px;
+}
+
+.slide-img {
+  width: 1400px;
+  height: 625px;
+}
+
+@keyframes defiler {
+  0%,
+  15%,
+  100% {
+    transform: translateX(0);
+  }
+
+  25%,
+  40% {
+    transform: translateX(-1400px);
+  }
+
+  50%,
+  65% {
+    transform: translateX(-2800px);
+  }
+
+  75%,
+  90% {
+    transform: translateX(-4200px);
+  }
+}
+
+.order{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    
+}
+
+.orderOne{
+    background-color: rgb(37, 27, 27);
+    color: white;
+    display: flex;
+    margin: 15px;
+    border: 2px solid red;
+    width: 500px;
+}
+
+.days img{
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
+}
