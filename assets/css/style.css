@@ -8,6 +8,7 @@ header{
     background-color: rgb(37, 27, 27);
     color: white;
     padding: 10px;
+ 
 }
 
 nav{
@@ -37,12 +38,13 @@ a img{
 }
 
 .my-slider{
-    width: auto;
+    width: 100%;
     height: 615px;
     background-image: url('./../images/hero-bg.jpg');
     background-repeat: no-repeat;
-    background-position: top;
-    margin-bottom: 0px;
+    /* background-position: top; */
+    /* margin-bottom: 0px; */
+       background-size: 100%;
 
 }
 
