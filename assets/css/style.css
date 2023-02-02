@@ -1,12 +1,13 @@
 *{
     margin: 0;
     text-decoration: none;
-    /* color: white; */
+    color: white;
 }
 
 header{
     background-color: rgb(37, 27, 27);
     color: white;
+    padding: 10px;
 }
 
 nav{
@@ -109,8 +110,8 @@ a img{
     color: white;
     display: flex;
     margin: 15px;
-    border: 2px solid red;
     width: 500px;
+    padding: 10px;
 }
 
 .days img{
