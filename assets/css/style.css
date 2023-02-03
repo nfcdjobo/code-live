@@ -1,11 +1,11 @@
 *{
     margin: 0;
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
 
 header{
-    background-color: rgb(37, 27, 27);
+    background-color: rgb(15, 15, 15);
     color: white;
     padding: 10px;
  
@@ -30,6 +30,11 @@ nav{
 
 .second-ul a{
     margin-left: 10px;
+    margin-top: -10px;
+}
+.logo{
+    font-family: 'Script MT Bold';
+    font-family: "Script MT Bold", "Times New Roman", Times, serif;
 }
 
 a img{
@@ -39,13 +44,17 @@ a img{
 
 .my-slider{
     width: 100%;
-    height: 615px;
+    height: auto;
     background-image: url('./../images/hero-bg.jpg');
     background-repeat: no-repeat;
-    /* background-position: top; */
-    /* margin-bottom: 0px; */
-       background-size: 100%;
+    background-size: 100%;
 
+}
+
+.OrderOne{
+    background-color: orange;
+    border-radius: 15px;
+    padding: 5px;
 }
 
 
